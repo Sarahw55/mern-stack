@@ -1,11 +1,11 @@
-import logo from "../../assets/logo.png";
+import logo from "../../assets/react.svg";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { login } from "../../redux/actions/authAction";
-import { Formik, Form, Field, ErrorMessage } from "formik";
-import * as Yup from "yup";
 import { Link } from "react-router-dom";
+import * as Yup from "yup";
+import { Formik, Form, Field, ErrorMessage } from "formik";
 
 const Login = () => {
   const dispatch = useDispatch();

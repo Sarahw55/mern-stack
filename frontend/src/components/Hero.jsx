@@ -19,7 +19,7 @@ const Hero = () => {
                     </Col>
                     <Col md={6}>
                     <img
-                        src="//add photo"
+                        src="https://cdn-icons-png.flaticon.com/512/1533/1533926.png"
                         alt="Product photo"
                         className='img-fluid mt-4 mt-md-0'
                 /></Col>

@@ -1,8 +1,9 @@
 import React, {useState} from 'react'
 import {Button, Form} from "react-bootstrap";
 import ModalComponent from '../../components/ModalComponent';
-import { Formik } from "formik";
-import * as Yup from "yup";
+import * as Yup from 'yup';
+import { Formik } from 'formik';
+
 
 const ProductModal = ({ show, onClose, initialValues, onSubmit, isEdit }) => {
   const validationSchema = Yup.object().shape({
